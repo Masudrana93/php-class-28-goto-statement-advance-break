@@ -56,6 +56,11 @@ echo "<br>";
    // akhane if condition er oporer loop ta k 1 and tar oporer loop ta 2 hishebe count kora hoyeche. tai 2 ' break 2; ' likha hoyeche.
 
    // jokhon onekgolo Nested loop akshate thake and er majkhan theke beriye ashar proyojon hoy, tokhon ata beshi kaje lage.
+
+
+echo "<br>";
+echo "<br>";
+
 ?>
 
 
@@ -78,6 +83,20 @@ echo "<br>";
 
    out:   // ami loop theke jekhane beriye jete chai, shekhane akta word/name with colone (:) [ example-  out:   ]  likhte hobe . Then ' goto ' erpor shordo ae word/name ta likhte hobe. tahole ata advance loop er moto loop theke beriye jabe.
  echo "End";
+
+?>
+
+
+<?php
+
+   echo "Masud<br>";
+
+   goto come_here;
+   
+   echo "Rana<br>";
+
+   come_here:    // bookmark
+   echo "Alamnagar<br>";
 
 ?>
  
